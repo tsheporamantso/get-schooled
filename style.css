@@ -169,8 +169,9 @@ li {
 }
 
 .testimonial-title {
-    font-weight: 700;
+    font-weight: 100;
     font-size: 22px;
+    font-style: italic;
     color: #fff; 
     width: 32vw;
 }
