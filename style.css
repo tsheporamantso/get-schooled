@@ -1,0 +1,197 @@
+@import url('https://fonts.cdnfonts.com/css/source-sans-pro?styles=14488');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.headline {
+ background-image: url(images/WhatsApp\ Image\ 2023-12-07\ at\ 11.29.10\ \(1\).jpeg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ height: 1440px;
+}
+
+.navlinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px 0 100px;
+}
+
+.menu-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15vw;
+    color: #fff;
+    font-weight: 600;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.get-schooled {
+    position: absolute;
+    top: 350px;
+    left: 490px;
+}
+
+.title {
+    letter-spacing: 3px;
+    font-size: 120px;
+    color: #fff;
+}
+
+.main-list {
+   display: flex;
+   justify-content: center;
+   color: #fff;
+   gap: 60px;
+   font-size: 16px;
+   font-weight: 700;
+}
+
+.button {
+    color: #fff;
+    background-color: rgba(194,113,255,1);
+    border: 1px solid rgb(194, 113, 255,1);
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-weight: 100;
+    margin: 30px 250px;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 300;
+    font-size: 32px;
+    color: #fff;
+    margin: 250px 0 0 0;
+}
+
+.learn {
+    color: #c271ff;
+}
+
+.pros {
+    position: absolute;
+    display: flex;
+    gap: 160px;
+    top: 1096px;
+ 
+}
+
+.pro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pro-image {
+    border-radius: 100px;
+}
+
+.pro-name {
+    font-weight: 900;
+    font-size: 18px;
+    color: #fff;
+}
+
+.pro-achiement {
+    font-weight: lighter;
+    font-size: 16px;
+    font-style: italic;
+    color: #fff;
+}
+
+.pro-date {
+    font-weight: lighter;
+    font-size: 16px;
+    font-style: italic;
+    color: #fff;  
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #c271ff;
+    width: 100vw;
+    height: 45vh;
+}
+
+.testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.testimonial-img {
+    padding: 20px 20px;
+    border-radius: 100px;
+}
+
+.testimonial-para {
+   font-weight: 400;
+   font-size: 22px;
+   color: #fff;
+}
+
+.testimonial-name {
+   font-weight: 700;
+   font-size: 22px;
+   color: #fff; 
+   width: 32vw;
+}
+
+.testimonial-title {
+    font-weight: 700;
+    font-size: 22px;
+    color: #fff; 
+    width: 32vw;
+}
+
+.tutorials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 45vh;
+}
+
+.tutorial-title {
+   font-weight: 700;
+   font-size: 32px;
+   color: #071629;
+
+}
+
+.popular {
+    font-weight: 300;
+    color: #c271ff;
+}
