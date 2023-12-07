@@ -181,7 +181,8 @@ li {
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 45vh;
+    height: 80vh;
+    gap: 50px;
 }
 
 .tutorial-title {
@@ -194,4 +195,9 @@ li {
 .popular {
     font-weight: 300;
     color: #c271ff;
+}
+
+.tutors {
+    display: flex;
+    gap: 30px;
 }
